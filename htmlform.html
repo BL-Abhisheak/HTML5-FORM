@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main-div">
+        <div class="sub-div-1">
+            <form id="main-form">
+
+                <div>
+                    <label for="txt-name">Enter name:</label>
+                    <input type="text" id="txt-name">
+                    <span class="text-error"></span>
+                </div>
+
+                <div>
+                    <label for="txt-password">Enter password:</label>
+                    <input type="password" id="txt-password">
+                </div>
+
+                <div>
+                    <label for="txt-email">Enter email:</label>
+                    <input type="email" id="txt-email">
+                </div>
+
+                <div>
+                    <label for="txt-range">Choose your salary:</label>
+                    <input type="range" min="20000" max="50000" step="100" id="txt-range">
+                    <span class="salary-output"></span>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+
+            </form>
+        </div>
+
+        <div class="sub-div-2" id="output">
+    <h3>Your details</h3>
+    <p><strong>Name:</strong> <span id="out-name"></span></p>
+    <p><strong>Email:</strong> <span id="out-email"></span></p>
+    <p><strong>Salary:</strong> <span id="out-salary"></span></p>
+</div>
+
+    </div>
+</body>
+</html>

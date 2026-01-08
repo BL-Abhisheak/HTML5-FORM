@@ -1,0 +1,27 @@
+body {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    font-family: Arial, sans-serif;
+}
+
+form div {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+.text-error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.salary-output {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+}
