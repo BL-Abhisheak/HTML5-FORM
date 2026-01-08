@@ -68,5 +68,4 @@ document.addEventListener('DOMContentLoaded', function () {
         outEmail.textContent = emailInput.value;
         outSalary.textContent = salaryInput.value;
     });
-
 });
